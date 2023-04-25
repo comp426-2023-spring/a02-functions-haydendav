@@ -6,12 +6,12 @@
   "type": "module",
   "version": "1.0.0",
   "description": "This assignment will help you learn to create an installable Node.js command line utility.",
-  "main": "index.js",
+  "main": "cli.js",
   "scripts": {
     "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
     "url": "git+https://github.com/comp426-2023-spring/a02-functions-haydendav.git"
   },
   "author": "haydendav",

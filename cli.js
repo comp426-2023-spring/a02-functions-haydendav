@@ -68,7 +68,7 @@ if (argv.j) {
 }
 
 // Get the system timezone if not specified
-const timezone = options.timezone ? options.timezone : moment.tz.guess();
+const timezone = moment.tz.guess();
 
 // Make a request to Open-Meteo API
 axios.get(`https://api.open-meteo.com/v1/forecast?latitude_from=${options.s}&latitude_to=${options.n}&longitude_from=${options.w}&longitude_to=${options.e}&timezone=${timezone}`)
