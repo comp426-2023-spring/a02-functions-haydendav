@@ -1,15 +1,15 @@
 {
   "name": "galosh",
-  "bin": {
-    "galosh.js": "./cli.js"
-  },
-  "type": "module",
-  "version": "1.0.0",
-  "description": "This assignment will help you learn to create an installable Node.js command line utility.",
+  "version": "0.0.1",
+  "description": "galosh finder",
   "main": "cli.js",
   "scripts": {
     "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
   },
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2023-spring/a02-functions-haydendav.git"
@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/comp426-2023-spring/a02-functions-haydendav#readme",
   "dependencies": {
-    "minimist": "^1.2.8",
-    "moment-timezone": "^0.5.43",
-    "node-fetch": "^3.3.1"
+    "minimist": "^1.2.7",
+    "moment-timezone": "^0.5.40",
+    "node-fetch": "^3.3.0"
   }
 }
